@@ -328,9 +328,9 @@ static inline float AngleFromNorth(CGPoint p1, CGPoint p2, BOOL flipped) {
 }
 
 - (float)angleFromValue {
-    angle = 360 - (360.0f*_currentValue/_maximumValue);
+    angle = (360.0f*_currentValue/_maximumValue);
     
-    if(angle==360) angle=0;
+//    if(angle==360) angle=0;
     
     return angle;
 }
