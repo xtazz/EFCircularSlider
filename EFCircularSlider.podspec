@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'EFCircularSlider'
-  s.version      = '0.1.0'
+  s.version      = '0.1.0.1'
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.authors      =  { 'Eliot Fowler' => 'eliot.fowler@gmail.com' }
   s.summary      = 'An extensible circular slider for iOS applications'
